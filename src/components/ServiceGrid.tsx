@@ -10,23 +10,44 @@ const ServiceGrid = () => {
           <div className="flex mt-10">
             <div>
               <div className="w-75 h-100 bg-gray-800 rounded-lg shadow-md p-4">
-                <Image src={'/AirCompresorServices.png'} width={310} height={389} className="w-full" alt="img"/>                
-                <h1 className="text-2xl text-center text-white">Air Compressor Services</h1>
+                <Image
+                  src={"/AirCompresorServices.png"}
+                  width={310}
+                  height={389}
+                  className="w-full"
+                  alt="img"
+                />
+                <h1 className="text-2xl text-center text-white">
+                  Air Compressor Services
+                </h1>
               </div>
               <div className="w-75 h-100  bg-gray-800 rounded-lg shadow-md p-4 mt-18">
-              <Image src={'/Knowledgehub.png'} width={310} height={389} className="w-full" alt="img"/>
-                
-              <h1 className="text-2xl text-center text-white">Knowledge Hub</h1>
+                <Image
+                  src={"/Knowledgehub.png"}
+                  width={310}
+                  height={389}
+                  className="w-full"
+                  alt="img"
+                />
+
+                <h1 className="text-2xl text-center text-white">
+                  Knowledge Hub
+                </h1>
               </div>
             </div>
             <div>
               <div className="w-75 h-100 bg-gray-800 rounded-lg shadow-md p-4 mt-50 ml-20">
-              <Image src={'/ServiceImg.png'} width={310} height={389} className="w-full" alt="img"/>
-                
-                <h1 className="text-2xl text-center text-white">Service , Repair & Parts</h1>
-                
-                
-                
+                <Image
+                  src={"/ServiceImg.png"}
+                  width={310}
+                  height={389}
+                  className="w-full"
+                  alt="img"
+                />
+
+                <h1 className="text-2xl text-center text-white">
+                  Service , Repair & Parts
+                </h1>
               </div>
             </div>
           </div>
@@ -39,15 +60,31 @@ const ServiceGrid = () => {
               </h1>
               <div className="flex">
                 <div className="w-75 h-100 bg-gray-800 rounded-lg shadow-md p-4 mt-40 ">
-                <Image src={'/IndustrialAppimg.png'} width={310} height={389} className="w-full" alt="img"/>
-                
-                <h1 className="text-2xl text-center text-white">Industrial Applications</h1>
+                  <Image
+                    src={"/IndustrialAppimg.png"}
+                    width={310}
+                    height={389}
+                    className="w-full"
+                    alt="img"
+                  />
+
+                  <h1 className="text-2xl text-center text-white">
+                    Industrial Applications
+                  </h1>
                 </div>
 
                 <div className="w-75 h-100 bg-gray-800 rounded-lg shadow-md p-4 mt-60 ml-20">
-                <Image src={'/Ancillaryproducts.png'} width={310} height={389} className="w-full" alt="img"/>
-                
-                <h1 className="text-2xl text-center text-white">Ancillary Products</h1>
+                  <Image
+                    src={"/Ancillaryproducts.png"}
+                    width={310}
+                    height={389}
+                    className="w-full"
+                    alt="img"
+                  />
+
+                  <h1 className="text-2xl text-center text-white">
+                    Ancillary Products
+                  </h1>
                 </div>
               </div>
             </div>
