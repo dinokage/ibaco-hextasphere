@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-[#29567a] text-white">
+    <footer className="bg-[#ECDFCF] text-black">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Let's Connect Section */}
